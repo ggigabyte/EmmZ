@@ -1,16 +1,6 @@
 import os
 import sqlite3
 from time import sleep
-
-check = input("Enter activation code:")
-
-if check != 140204187:
-  print(":-) Access granted")
-else:  
-  print(":-( Error: Access denied. Reload the page and try again.")
-  sleep(5)
-  exit()
-
 import pywin
 import wincrypt
 
