@@ -6,3 +6,5 @@ License:
 Free license by Ggigabyte https://ggigabyte.wixsite.com/coding
 Use at your own risk!
 No account required. All data such as your IP address isn't going to be sended to the developer.
+
+For Repl version visit emmz.ggigabyte.repl.run
