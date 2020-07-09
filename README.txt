@@ -3,7 +3,7 @@ Requirements:
 2. pywin32 Link is here: https://github.com/mhammond/pywin32
 
 License:
-Free license by Ggigabyte https://ggigabyte.wixsite.com/coding
+Free license by IQNite http://x.ggigabyte.repl.co
 Use at your own risk!
 No account required. All data such as your IP address isn't going to be sended to the developer.
 
